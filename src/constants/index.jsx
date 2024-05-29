@@ -69,7 +69,7 @@ export const contactUsData = [
     {
         title: "GitHub",
         icon: <GitHubIcon style={{ color: "#333" }} />,
-        link: "https://github.com/AdarshDamanellore/firstrepo",
+        link: "https://github.com/KarthikDamanellore/adarshportfolio",
     },
     {
         title: "Venktagitri - Tirupati(Dist) - A.P - 524132",

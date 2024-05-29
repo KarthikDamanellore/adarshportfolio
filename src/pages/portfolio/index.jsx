@@ -38,7 +38,7 @@ const PortFolioApp = () => {
     const [menuItem, setMenuItem] = useState(null);
     const [openModal, setOpenModal] = useState(false);
     const [expandedAccordion, setExpandedAccordion] = useState(0);
-    const [isMobile, setIsMobile] = useState(window.innerWidth <= 510);
+    const [isMobile, setIsMobile] = useState(null);
 
     const getContent = () => {
         switch (menuItem) {

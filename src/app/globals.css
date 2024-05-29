@@ -1,6 +1,7 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
 
 :root {
   --foreground-rgb: 0, 0, 0;
@@ -17,17 +18,35 @@
 }
 
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  background: #EECDA3;
+  background: -webkit-linear-gradient(to right, #EF629F, #EECDA3);
+  background: linear-gradient(to right, #EF629F, #EECDA3);
 }
 
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
+.MuiAccordionSummary-content {
+  display: flex !important;
+  flex-direction: row !important;
+  gap: 10px !important;
+  align-items: center !important;
+}
+
+.react-multi-carousel-track {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  overflow: hidden;
+}
+
+
+@media screen and (max-width : 700px) {
+
+  .MuiModal-root {
+    inset: 16px !important;
+  }
+}
+
+@media screen and (max-width:510px) and (min-width : 410px) {
+  .MuiPaper-root {
+    left: 130px !important;
   }
 }

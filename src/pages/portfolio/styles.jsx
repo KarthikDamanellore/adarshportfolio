@@ -17,7 +17,6 @@ export const selfContentDescStyles = {
         fontSize: "12px",
     },
 };
-
 export const educationBlockStyles = {
     display: "flex",
     flexDirection: "column",
@@ -34,11 +33,11 @@ export const skillsModalStyles = {
 };
 
 export const contactItemTextStyles = {
-    "& span": {
-        "@media screen and (max-width:510px)": {
-            fontSize: "12px",
-        },
+    "& span":{
+    "@media screen and (max-width:510px)": {
+        fontSize: "12px",
     },
+}
 };
 
 export const cardStyles = {
@@ -53,17 +52,3 @@ export const educationHeadingStyles = {
         fontSize: "12px",
     },
 };
-
-const styles = {
-    mySelfContainerStyles,
-    selfContentBlockStyles,
-    selfContentDescStyles,
-    educationBlockStyles,
-    customModalStyles,
-    skillsModalStyles,
-    contactItemTextStyles,
-    cardStyles,
-    educationHeadingStyles,
-};
-
-export default styles;

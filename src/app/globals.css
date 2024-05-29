@@ -18,9 +18,9 @@
 }
 
 body {
-  background: #EECDA3;
-  background: -webkit-linear-gradient(to right, #EF629F, #EECDA3);
-  background: linear-gradient(to right, #EF629F, #EECDA3);
+  background: #eecda3;
+  background: -webkit-linear-gradient(to right, #ef629f, #eecda3);
+  background: linear-gradient(to right, #ef629f, #eecda3);
 }
 
 .MuiAccordionSummary-content {
@@ -37,16 +37,8 @@ body {
   overflow: hidden;
 }
 
-
-@media screen and (max-width : 700px) {
-
+@media screen and (max-width: 700px) {
   .MuiModal-root {
     inset: 16px !important;
-  }
-}
-
-@media screen and (max-width:510px) and (min-width : 410px) {
-  .MuiPaper-root {
-    left: 130px !important;
   }
 }

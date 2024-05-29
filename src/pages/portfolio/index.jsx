@@ -211,6 +211,7 @@ const PortFolioApp = () => {
                                             width={100}
                                             height={100}
                                             objectFit="Contain"
+                                            alt={item?.title}
                                             className={styles.imageStyles}
                                         />
                                         <Typography gutterBottom variant="h5">
